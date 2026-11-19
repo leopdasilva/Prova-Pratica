@@ -8,7 +8,7 @@
 <body>
     <h2>Cadastro Funcionario</h2>
 
-    <form action="/views/cadastrar.php" method="POST">
+    <form action="/public/views/cadastrar.php" method="POST">
         <label for="nome">Nome: </label>
         <input type="text" name="nome" id="nome" required>
         <br><br>
