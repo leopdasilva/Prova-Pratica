@@ -46,6 +46,6 @@
 
         abstract public function executarFuncao();
 
-        abstract public function calcularBonus();
+        abstract public function calcularBonus($salario);
     }
 ?>
