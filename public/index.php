@@ -32,7 +32,7 @@
         <button type="submit">Cadastrar</button>
         <br><br>
 
-        <a href="/views/listar.php">Listar funcionarios</a>
+        <a href="views/listar.php">Listar funcionarios</a>
 
     </form>
 </body>
