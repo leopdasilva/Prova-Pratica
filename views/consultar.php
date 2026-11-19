@@ -43,13 +43,22 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptbr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consultar Funcionarios</title>
 </head>
 <body>
-    
+    <h2>Dados do funcionário</h2>
+    <p>ID: <?= $funcionario->getId() ?></p>
+    <p>Nome: <?= htmlspecialchars($funcionario->getNome()) ?></p>
+    <p>E-mail: <?= htmlspecialchars($funcionario->getEmail()) ?></p>
+    <p>Salario: <?= $funcionario->getSalario() ?></p>
+    <p>Salario + Bonus: <?= $funcionario->calcularBonus($salario) ?></p>
+    <p>Tipo: <?= htmlspecialchars($dados['tipo']) ?></p>
+    <p>Função: <?= htmlspecialchars($funcionario->executarFuncao()) ?></p>
+    <br><br>
+    <a href="listar.php">Voltar para a lista</a>
 </body>
 </html>
