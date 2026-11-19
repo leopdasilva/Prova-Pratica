@@ -21,6 +21,7 @@
         <input type="salario" name="salario" id="salario" step="0.01" required>
         <br><br>
 
+        <label for="tipo">Tipo: </label>
         <select name="tipo" id="tipo">
             <option value="">Selecione</option>
             <option value="FuncionarioComum">Funcionario Comum</option>
