@@ -43,7 +43,9 @@
                     <td><?=$funcionario['salario']?></td>
                     <td>
                         <a href="consultar.php?id=<?=$funcionario['id']?>">Consultar</a>
+                        |
                         <a href="editar.php?id=<?=$funcionario['id']?>">Editar</a>
+                        |
                         <form action="excluir.php" method="POST" style="display:inline;">
                             <input type="hidden" name="id" value="<? $funcionario['id']?>">
                             <button type="submit">Excluir</button>

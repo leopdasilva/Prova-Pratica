@@ -1,3 +1,7 @@
+CREATE DATABASE empresa;
+
+USE empresa
+
 CREATE TABLE funcionarios(
     id INT AUTO INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
